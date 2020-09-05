@@ -3,12 +3,19 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { ApolloProvider } from '@apollo/client';
 import { ApolloClient, InMemoryCache } from '@apollo/client';
+import { createUploadLink } from 'apollo-upload-client'
 
 import 'bootstrap/dist/css/bootstrap.css';
 
-const client = new ApolloClient({
-  uri: 'http://localhost:3000',
-  cache: new InMemoryCache()
+const link = createUploadLink({
+  uri: "http://localhost:3000/graphql"
+});
+const client = new ApolloClient({ 
+  cache: new InMemoryCache(),
+  link: link,
+  fetchOptions: {
+    mode: 'no-cors',
+  },
 });
 
 ReactDOM.render(

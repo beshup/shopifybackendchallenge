@@ -1,0 +1,9 @@
+.dropzone {
+    text-align: center;
+    padding: 20px;
+    border: 3px dashed #eeeeee;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    cursor: pointer;
+    border-radius: 40px;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
+import {useRoutes} from 'hookrouter';
+import NotFoundPage from './pages/NotFound'
+import routes from './Routes'
 
 function App() {
-  return (
-      <div className="App">
-        
-      </div>
-  );
+  const routeResult = useRoutes(routes);
+  return routeResult || <NotFoundPage />;
 }
 
 export default App;
