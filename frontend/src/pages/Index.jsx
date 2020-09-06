@@ -98,7 +98,7 @@ const Index = ({page}) => {
         <div className="container">
             <h1>Images</h1>
             <hr /> 
-            <PaginationBar pagesNum={data.picturePagesCount} page={page+1}/> 
+            <PaginationBar pagesNum={data.picturePagesCount} page={parseInt(page)+1}/> 
             <Gallery pictures={data.pictures} />
             <AddImage addPicture={addPicture} /> 
             {

@@ -13,31 +13,30 @@ module Mutations
             images.each do |image|
                 #if one fails, both fails, and all images after
                 Picture.transaction do
-                    blob = ActiveStorage::Blob.create_and_upload!(io: imagee, filename: image.original_filename, content_type: image.content_type)
+                    blob = ActiveStorage::Blob.create_and_upload!(io: image, filename: image.original_filename, content_type: image.content_type)
                     picture = Picture.new(uploaded: DateTime.now, image: blob)
                     picture.save!
                 end
                 res = true
             end
         
-            if res
+            if res == true
                 { 
                     success: true,
                     blob_errors: nil
                 }
             else
-                if blob.errors && blob.errors.full_messages {
+                if blob.errors && blob.errors.full_messages 
                     {
                         success: false,
                         blob_errors: blob.errors.full_messages
                     }
-                }
-                else {
+                else 
                     {
                         success: false,
                         blob_errors: nil
                     }
-                }
+                end
             end
         end
     end

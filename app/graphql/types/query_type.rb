@@ -18,11 +18,11 @@ module Types
     end
 
     def picture(id:)
-      Picture.find(id).with_attached_image
+      Picture.find(id)
     end
 
     def picture_pages_count(limit:)
-      Picture.all.count / limit
+      (Picture.all.count / limit) + 1
     end
   end
 end
