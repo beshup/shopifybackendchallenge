@@ -29,7 +29,6 @@ class AddImages extends Component {
 
     handleFiles = (files) => {
         this.state.files = files;
-        console.log(this.state)
     }
 
     render() {

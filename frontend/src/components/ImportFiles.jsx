@@ -37,7 +37,7 @@ class ImportFiles extends Component {
                     })}
                     >
                     <input {...getInputProps()} />
-                    <span>{isDragActive ? "📂" : "📁"}</span>
+                    <span>   {"📂"}</span>
                     <p>Drag and drop images, or click to select files</p>
                     </div>
                 );

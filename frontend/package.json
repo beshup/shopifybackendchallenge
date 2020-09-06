@@ -16,7 +16,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-dropzone": "^11.0.3",
-    "react-scripts": "3.4.3"
+    "react-js-pagination": "^3.0.3",
+    "react-loadingg": "^1.7.2",
+    "react-scripts": "3.4.3",
+    "reactstrap": "^8.5.1"
   },
   "scripts": {
     "start": "cross-env PORT=5000 react-scripts start",
