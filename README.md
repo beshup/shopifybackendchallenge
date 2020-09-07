@@ -20,7 +20,7 @@ This project contains a frontend and backend server, hosted on ports 5000 and 30
 Have Docker, npm, and Yarn installed.
 
 ```
-git clone https://github.com/beshup/Image-Repository-Shopify-W2021-Challenge-.git
+git clone https://github.com/beshup/shopifybackendchallenge.git
 ```
 ```
 cd into directory
