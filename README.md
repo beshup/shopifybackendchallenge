@@ -32,3 +32,11 @@ cd frontend
 yarn install
 yarn start 
 ```
+
+Head on over to localhost:5000!
+
+To stop docker service:
+
+```
+docker-compose down
+```
