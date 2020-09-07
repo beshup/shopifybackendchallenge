@@ -19,6 +19,18 @@ This project contains a frontend and backend server, hosted on ports 5000 and 30
 
 Have Docker, npm, and Yarn installed.
 
+**If you don't:**
+
+https://docs.docker.com/get-docker/
+https://www.npmjs.com/get-npm
+
+Once you have npm, run
+```
+npm install -g yarn
+```
+
+**Once/if you do:**
+
 ```
 git clone https://github.com/beshup/shopifybackendchallenge.git
 ```
@@ -27,11 +39,15 @@ cd into directory
 ```
 ```
 docker-compose build
-docker-compose run --rm api rails db:create db:migrate
 docker-compose up
 ```
+Wait until your terminal has signalled "PostgreSQL init process complete; ready for start up."
+<img width="770" alt="shopifybackendchallengedocker" src="https://user-images.githubusercontent.com/55633921/92408825-a0544400-f10c-11ea-8cce-779977cbadfa.png">
 
 Open new terminal
+```
+docker-compose run api rails db:create db:migrate
+```
 ```
 cd frontend
 ```
@@ -48,7 +64,7 @@ To stop docker service:
 docker-compose down
 ```
 
-To start app up again, there is no need to run ./dev.sh, again, just run 
+To start app up again, run 
 ```
 docker-compose up
 ```
