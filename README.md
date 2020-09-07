@@ -11,7 +11,7 @@ Docker was used as this project was developed on a Windows machine, and Ruby on 
 
 The choice of the stack was to reflect Shopify's known stack, ala Rails / GraphQL / React. At this point in time, these are also technologies I have been extensively using for the past few months. 
 
-I wanted to challenge myself with image upload with GraphQL specifically. 
+I wanted to challenge myself with image upload with GraphQL specifically. Typically I would deem this particular project as a **terrible use case for GraphQL**.
 
 This project contains a frontend and backend server, hosted on ports 5000 and 3000 respectively, when run locally. Unfortunately the frontend server is not containerized and you will have to start them seperately.
 
