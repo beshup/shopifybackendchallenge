@@ -52,7 +52,7 @@ To stop docker service:
 docker-compose down
 ```
 
-To start app up again, there is no need to run ./dev.sh, again, just run 
+To start app up again, run 
 ```
 docker-compose up
 ```
