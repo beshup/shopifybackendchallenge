@@ -13,7 +13,7 @@ The choice of the stack was to reflect Shopify's known stack, ala Rails / GraphQ
 
 I wanted to challenge myself with image upload with GraphQL specifically. 
 
-This project contains a frontend and backend server, hosted on ports 5000 and 3000 respectively, when run locally. Apologies for not containerizing the frontend server.
+This project contains a frontend and backend server, hosted on ports 5000 and 3000 respectively, when run locally. Unfortunately the frontend server is not containerized and you will have to start them seperately.
 
 ## GET STARTED
 
