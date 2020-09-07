@@ -1,6 +1,11 @@
-# README
+##PREFACE
 
-Preface: 
+With regards to acting as an image repository, this project supports/has:
+
+- Uploading an image
+- Updating image details such as name, author, description
+- Deleting an image
+- A **paginated** display of all images
 
 Docker was used as this project was developed on a Windows machine, and Ruby on Rails on Windows is.. not the most fun.
 
