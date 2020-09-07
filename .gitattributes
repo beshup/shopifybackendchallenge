@@ -1,0 +1,3 @@
+entrypoint.sh text eol=lf
+dev.sh text eol=lf
+Dockerfile text eol=lf
