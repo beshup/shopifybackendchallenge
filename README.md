@@ -19,6 +19,18 @@ This project contains a frontend and backend server, hosted on ports 5000 and 30
 
 Have Docker, npm, and Yarn installed.
 
+If you don't:
+
+https://docs.docker.com/get-docker/
+https://www.npmjs.com/get-npm
+
+Once you have npm, run
+```
+npm install -g yarn
+```
+
+Once/if you do:
+
 ```
 git clone https://github.com/beshup/shopifybackendchallenge.git
 ```
