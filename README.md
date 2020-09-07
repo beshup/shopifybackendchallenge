@@ -1,4 +1,4 @@
-##PREFACE
+## PREFACE
 
 With regards to acting as an image repository, this project supports/has:
 
@@ -15,7 +15,7 @@ I wanted to challenge myself with image upload with GraphQL specifically.
 
 This project contains a frontend and backend server, hosted on ports 5000 and 3000 respectively, when run locally. Apologies for not containerizing the frontend server.
 
-GET STARTED
+## GET STARTED
 
 Have Docker, npm, and Yarn installed.
 
