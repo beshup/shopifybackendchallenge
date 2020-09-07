@@ -36,7 +36,6 @@ Open new terminal
 ```
 docker-compose run --rm api rails db:create db:migrate
 ```
-Open new terminal
 ```
 cd frontend
 ```
