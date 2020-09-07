@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Preface: 
 
-Things you may want to cover:
+Docker was used as this project was developed on a Windows machine, and Ruby on Rails on Windows is.. not the most fun.
 
-* Ruby version
+The choice of the stack was to reflect Shopify's known stack, ala Rails / GraphQL / React. At this point in time, these are also technologies I have been extensively using for the past few months. 
 
-* System dependencies
+I wanted to challenge myself with image upload with GraphQL specifically. 
 
-* Configuration
+This project contains a frontend and backend server, hosted on ports 5000 and 3000 respectively, when run locally. Apologies for not containerizing the frontend server.
 
-* Database creation
+GET STARTED
 
-* Database initialization
+Have Docker, npm, and Yarn installed.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+git clone https://github.com/beshup/Image-Repository-Shopify-W2021-Challenge-.git
+```
+```
+cd into directory
+```
+```
+docker-compose build
+docker-compose up 
+```
+Open new terminal
+```
+cd frontend
+```
+```
+yarn install
+yarn start 
+```
