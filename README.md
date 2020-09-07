@@ -25,10 +25,12 @@ git clone https://github.com/beshup/shopifybackendchallenge.git
 ```
 cd into directory
 ```
+Make sure you have the permissions to run the following command. If you are on a unix based machine, run: ```chmod +x dev.sh```
 ```
-docker-compose build
-docker-compose up 
+./dev.sh
 ```
+If you are unable to run the command above, simply copy and paste its contents into the terminal and run.
+
 Open new terminal
 ```
 cd frontend
@@ -44,4 +46,9 @@ To stop docker service:
 
 ```
 docker-compose down
+```
+
+To start app up again, there is no need to run ./dev.sh, again, just run 
+```
+docker-compose up
 ```
