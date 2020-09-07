@@ -25,11 +25,11 @@ git clone https://github.com/beshup/shopifybackendchallenge.git
 ```
 cd into directory
 ```
-Make sure you have the permissions to run the following command. If you are on a unix based machine, run: ```chmod +x dev.sh```
 ```
-./dev.sh
+docker-compose build
+docker-compose run --rm api rails db:create db:migrate
+docker-compose up
 ```
-If you are unable to run the command above, simply copy and paste its contents into the terminal and run.
 
 Open new terminal
 ```
