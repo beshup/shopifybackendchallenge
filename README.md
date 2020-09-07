@@ -41,12 +41,12 @@ cd into directory
 docker-compose build
 docker-compose up
 ```
-Wait until your terminal has signalled "PostgreSQL init process complete; ready for start up.
+Wait until your terminal has signalled "PostgreSQL init process complete; ready for start up."
 <img width="770" alt="shopifybackendchallengedocker" src="https://user-images.githubusercontent.com/55633921/92408825-a0544400-f10c-11ea-8cce-779977cbadfa.png">
 
 Open new terminal
 ```
-docker-compose run --rm api rails db:create db:migrate
+docker-compose run api rails db:create db:migrate
 ```
 ```
 cd frontend
