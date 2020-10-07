@@ -9,7 +9,7 @@ With regards to acting as an image repository, this project supports/has:
 
 Docker was used as this project was developed on a Windows machine, and Ruby on Rails on Windows is.. not the most fun.
 
-The choice of the stack was to reflect Shopify's known stack, ala Rails / GraphQL / React. At this point in time, these are also technologies I have been extensively using for the past few months. 
+The choice of the stack was to reflect Shopify's known stack, ala Rails / GraphQL / React. 
 
 I wanted to challenge myself with image upload with GraphQL specifically. Typically I would deem this particular project as a **terrible use case for GraphQL**.
 
